@@ -50,6 +50,7 @@ WITH_LINEAGE_CHARGER := false
 
 # Dexpreopt
 WITH_DEXPREOPT := true
+DONT_DEXPREOPT_PREBUILTS := true
 
 # Display
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
