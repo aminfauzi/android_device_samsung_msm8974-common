@@ -6,4 +6,10 @@ allow system_app sysfs_zram:dir { read search };
 allow system_app sysfs_zram:file { getattr open read };
 allow system_app system_suspend_control_service:service_manager find;
 
-binder_call(system_app, apexd)
+binder_call(system_app, apexd);
+
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read };
+allow system_app sysfs_battery_supply:file { open };
+allow system_app sysfs_battery_supply:file { getattr };
+
