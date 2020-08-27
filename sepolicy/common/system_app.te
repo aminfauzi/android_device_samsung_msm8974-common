@@ -15,3 +15,5 @@ allow system_app sysfs_battery_supply:file { getattr };
 
 # allow system_app to interact with sysfs_battery_supply
 r_dir_file(system_app, sysfs_battery_supply)
+
+allow system_app sysfs_kgsl:file { getattr open read };
