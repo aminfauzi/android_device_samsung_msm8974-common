@@ -37,6 +37,18 @@ vendor/lib/libizat_core.so|8da21c500def47067e8d6351034ffbca39c3c928
 vendor/lib/liblbs_core.so|a06d4fb42ed38851f9eaf005090f80f665434b3f
 vendor/lib/libloc_api_v02.so|36b872293fc76f15e005ec55b0724c9583629e2a
 vendor/lib/libloc_ds_api.so|da39a3ee5e6b4b0d3255bfef95601890afd80709
+vendor/lib/hw/android.hardware.gnss@1.0-impl.hlte.so
+vendor/lib/hw/android.hardware.gnss@1.0-impl.legacy.so
+vendor/lib/hw/android.hardware.gnss@1.0-impl.so
+vendor/lib/hw/gps.msm8974.so
+vendor/lib/libgps.utils.so
+vendor/lib/libloc_eng.so
+lib/android.hardware.gnss.measurement_corrections@1.0.so
+lib/android.hardware.gnss.visibility_control@1.0.so
+lib/android.hardware.gnss@1.0.so
+lib/android.hardware.gnss@1.1.so
+lib/android.hardware.gnss@2.0.so
+
 
 # Renderscript (OnePlus onyx - Oxygen OS 3.1.4 - OnePlusXOxygen_14_201611071506)
 vendor/lib/libRSDriver_adreno.so|371dc9e34dfb3b4f3352d285d7dbfdd2d30daf23

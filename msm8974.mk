@@ -107,7 +107,22 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-service.legacy \
     android.hardware.gnss@1.0-impl \
     android.hardware.gnss@1.0-service \
-    gps.msm8974
+    android.hardware.gnss.measurement_corrections@1.0 \
+    android.hardware.gnss.visibility_control@1.0 \
+    android.hardware.gnss@1.0 \
+    android.hardware.gnss@1.1 \
+    android.hardware.gnss@2.0 \
+    flp.default \
+    gps.msm8974 \
+    libflp \
+    libgeofence \
+    libizat_core \
+    liblbs_core \
+    libloc_api_v02 \
+    libloc_ds_api \
+    libgps.utils \
+    libloc_eng \
+    libgnss
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/flp.conf:system/etc/flp.conf \
