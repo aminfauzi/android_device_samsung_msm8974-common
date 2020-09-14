@@ -3,3 +3,5 @@ r_dir_file(platform_app, sysfs_kgsl)
 
 # allow platform_app to interact with sysfs_battery_supply
 r_dir_file(platform_app, sysfs_battery_supply)
+
+allow platform_app radio_data_file:dir getattr;
