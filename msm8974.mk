@@ -90,6 +90,13 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service
 
+# Face unlock
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/faceunlock/lib/libFaceDetectCA.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFaceDetectCA.so \
+	$(LOCAL_PATH)/faceunlock/lib/libmegface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmegface.so \
+	$(LOCAL_PATH)/faceunlock/lib/libMegviiUnlock.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libMegviiUnlock.so \
+	$(LOCAL_PATH)/faceunlock/lib/libMegviiUnlock-jni-1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libMegviiUnlock-jni-1.2.so
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
